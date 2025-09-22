@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Tablet */
+@media (max-width: 992px) {
+  .about_main_item {
+    flex-direction: column; /* Ảnh và text xếp dọc */
+    text-align: center;
+  }
+
+  .about_main_img img {
+    max-width: 90%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .menusearch ul {
+    flex-direction: column; /* Menu dọc */
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .search input {
+    width: 100%; /* Input full chiều ngang */
+  }
+
+  .footer_content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer_services, .footer_contact {
+    margin-top: 20px;
+  }
+}
